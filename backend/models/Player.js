@@ -1,6 +1,6 @@
-const mongoose = require('mongoose');
+import mongoose from 'mongoose';
 
-const PlayerSchema = new mongoose.Schema({
+const playerSchema = new mongoose.Schema({
   name: { type: String, required: true },
   age: { type: Number, required: true },
   country: { type: String, required: true },
@@ -13,7 +13,8 @@ const PlayerSchema = new mongoose.Schema({
   password: { type: String, required: true },
   isPurchased: { type: Boolean, default: false },
   team: { type: String, default: '' },
-  soldPrice: { type: Number, default: 0 }
+  soldPrice: { type: Number, default: 0 },
+  isAvailable: { type: Boolean, default: true }
 });
 
-module.exports = mongoose.model('Player', PlayerSchema);
+export default mongoose.model('Player', playerSchema);

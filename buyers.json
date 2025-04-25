@@ -1,0 +1,17 @@
+[
+    {
+      "firstName": "Mumbai",
+      "lastName": "Indians",
+      "password": "mumbai123"
+    },
+    {
+      "firstName": "Chennai",
+      "lastName": "Super Kings",
+      "password": "chennai123"
+    },
+    {
+      "firstName": "Royal",
+      "lastName": "Challengers",
+      "password": "rcb123"
+    }
+  ]

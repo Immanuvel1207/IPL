@@ -1,0 +1,38 @@
+[
+    {
+      "name": "Virat Kohli",
+      "age": 34,
+      "country": "India",
+      "role": "batsman",
+      "economyOrAverage": 50.5,
+      "matchesPlayed": 250,
+      "bestScore": "183",
+      "basePrice": 15,
+      "image": "https://example.com/virat.jpg",
+      "password": "virat123"
+    },
+    {
+      "name": "Jasprit Bumrah",
+      "age": 29,
+      "country": "India",
+      "role": "bowler",
+      "economyOrAverage": 6.8,
+      "matchesPlayed": 120,
+      "bestScore": "5/19",
+      "basePrice": 12,
+      "image": "https://example.com/bumrah.jpg",
+      "password": "bumrah123"
+    },
+    {
+      "name": "Ben Stokes",
+      "age": 31,
+      "country": "England",
+      "role": "all-rounder",
+      "economyOrAverage": 32.5,
+      "matchesPlayed": 180,
+      "bestScore": "135",
+      "basePrice": 14,
+      "image": "https://example.com/stokes.jpg",
+      "password": "stokes123"
+    }
+  ]
